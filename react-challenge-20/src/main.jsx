@@ -1,7 +1,7 @@
 // import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import './index.css'
+import './styles/main.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 // Bringing in the required imports from 'react-router-dom' to set up application routing behavior
 

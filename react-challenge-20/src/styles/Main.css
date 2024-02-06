@@ -1,0 +1,10 @@
+* {
+  background-image: url("../images/black-evil-eye.webp");
+  
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgb(18, 18, 18);
+
+} 
