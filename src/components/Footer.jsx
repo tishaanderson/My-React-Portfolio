@@ -7,11 +7,11 @@ function Footer() {
     <footer className="footer">
       <div className='social-icons'>
 
-        <a href='https://www.linkedin.com/in/tisha-anderson' className='icon' alt="LinkedIn Icon">
+        <a href='https://www.linkedin.com/in/tisha-anderson' className='fa icon' alt="LinkedIn Icon">
           <FaLinkedin />
         </a>
 
-        <a href='https://github.com/tishaanderson?tab=repositories' className='icon' alt="Github Icon">
+        <a href='https://github.com/tishaanderson?tab=repositories' className='fa icon' alt="Github Icon">
           <FaGithub />
         </a>
 

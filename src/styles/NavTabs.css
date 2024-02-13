@@ -1,0 +1,7 @@
+.nav-tabs {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  border-bottom: none !important;
+  margin-top: 15%;
+}
