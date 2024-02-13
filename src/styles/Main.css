@@ -15,6 +15,10 @@ body {
   background: transparent !important;
 }
 
+Header {
+  width: 100%;
+}
+
 .app-page {
   display: flex;
 }
