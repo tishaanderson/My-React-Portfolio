@@ -2,14 +2,13 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;
+  height: rem;
 }
 
 .social-icons {
   display: flex;
   justify-content: center;
   gap: 15px;
-  /* background-image: none; */
 }
 
 .fa {
@@ -18,5 +17,5 @@ footer {
 
 .fa:hover {
   background-image: none;
-  transform:scale(3.5);
+  transform:scale(2.5);
 }
