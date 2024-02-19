@@ -1,3 +1,17 @@
+.portfolio {
+  display: flex;
+  height: 100%;
+}
+
+.half-page {
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+  color: white;
+}
+
+
+
 #horiseon-icon,
 #game-icon, 
 #planner-icon,

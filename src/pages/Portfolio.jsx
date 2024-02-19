@@ -8,8 +8,9 @@ import '../styles/Portfolio.css'
 
 export default function Portfolio() {
   return (
-    <div>
-      <a href="https://tishaanderson.github.io/Horiseon-site/" target="_blank" >
+    <div className='portfolio'>
+      <div className='half-page'>
+        <a href="https://tishaanderson.github.io/Horiseon-site/" target="_blank" >
         <img className="icons" id="horiseon-icon" src={horiseon} alt="horiseon logo personalized with dotted border around it" />
       </a>
 
@@ -30,19 +31,14 @@ export default function Portfolio() {
       <p>
         Daily Planner/Scheduler: Workday scheduler was my 5th assignment within the SMU program.
       </p>
+      </div>
 
-      <a href="https://tishaanderson.github.io/TasteBudsUnite/" target="_blank" >
+      <div className='half-page'>
+        <a href="https://tishaanderson.github.io/TasteBudsUnite/" target="_blank" >
         <img className="icons" id="project1-icon" src={project1} alt="Taste Buds Unite page header as icon" />
       </a>
       <p>
         Taste Buds Unite: My first group project, 8 weeks into the SMU program.
-      </p>
-
-      <a href="https://tisha-anderson-plant-pal-7344ed2b4c7b.herokuapp.com/" target="_blank" >
-        <img className="icons" id="project2-icon" src={project2} alt="Plant Pal homepage as icon" />
-      </a>
-      <p>
-        Plant Pal: Second group project, 16 weeks into the SMU program. Deployed on Heroku.
       </p>
 
       <a href="https://tisha-anderson-plant-pal-7344ed2b4c7b.herokuapp.com/" target="_blank" >
@@ -58,9 +54,7 @@ export default function Portfolio() {
       <p>
         Welcome to My Tech Talk: Challenge #14.Deployed on Heroku.
       </p>
-
-      
-
+      </div>
     </div>
   );
 }
