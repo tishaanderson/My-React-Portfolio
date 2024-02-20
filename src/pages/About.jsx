@@ -1,7 +1,7 @@
 import '../styles/About.css';
 export default function About() {
   return (
-    <div>
+    <div className='aboutme'>
       <p>
         Hi there, I'm Tisha Anderson, a recently certified junior software developer embarking on a transformative journey in the tech world. As I step into this dynamic field, I'm driven by the belief that technology holds the key to financial freedom and empowerment in today's rapidly changing world.
       </p>

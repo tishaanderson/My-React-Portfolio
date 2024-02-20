@@ -3,19 +3,26 @@ footer {
   bottom: 0;
   width: 100%;
   height: rem;
+  color: white !important;
 }
 
 .social-icons {
   display: flex;
-  justify-content: center;
-  gap: 15px;
+  justify-content: start;
+  gap: 10px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  color: white !important;
+
 }
 
 .fa {
+  color: #212529 !important;
+
   transition: .5s;
 }
 
 .fa:hover {
   background-image: none;
-  transform:scale(2.5);
+  transform:scale(1.5);
 }
