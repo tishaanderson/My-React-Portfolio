@@ -8,6 +8,9 @@ function NavTabs() {
 
   return (
     <ul className="nav nav-tabs">
+      {/* <img src="src\images\Selfie.png" alt="selfie of tisha anderson" /> */}
+      <img src="src\images\closingday2.png" alt="selfie of tisha anderson" />
+
       <li className="nav-item">
         <Link
           to="/"
