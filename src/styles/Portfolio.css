@@ -1,8 +1,24 @@
 .portfolio {
   display: flex;
   height: 100%;
+  padding-left: 30%;
+  padding-right: 10%;
+  padding-bottom: 5%;
 }
 
+.card {
+  margin-top: 1em;
+  width: 20rem;
+  background-color: #76bee2;
+  color: white;
+}
+
+.list-group-item {
+  background-color: #76bee2 !important;
+  color: white;
+  font-size: 13px;
+  text-align: left;
+}
 .half-page {
   padding: 20px;
   text-align: center;
@@ -10,9 +26,14 @@
   color: white;
 }
 
+p {
+  margin-top: 1em;
+  font-size: 12px;
+}
 
 
-#horiseon-icon,
+
+/* #horiseon-icon,
 #game-icon, 
 #planner-icon,
 #project1-icon,
@@ -20,4 +41,4 @@
 #techTalk-icon {
   width: 15%;
   border-radius: 20px;
-}
+} */
