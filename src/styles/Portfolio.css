@@ -9,13 +9,15 @@
 .card {
   margin-top: 1em;
   width: 20rem;
-  background-color: #76bee2;
-  color: white;
+  background-color: transparent;
+  color: #76bee2;
+  border: solid;
+  border-color: white;
 }
 
 .list-group-item {
-  background-color: #76bee2 !important;
-  color: white;
+  background-color: transparent !important;
+  color: #76bee2;
   font-size: 13px;
   text-align: left;
 }
@@ -23,22 +25,9 @@
   padding: 20px;
   text-align: center;
   flex: 1;
-  color: white;
 }
 
 p {
   margin-top: 1em;
   font-size: 12px;
 }
-
-
-
-/* #horiseon-icon,
-#game-icon, 
-#planner-icon,
-#project1-icon,
-#project2-icon,
-#techTalk-icon {
-  width: 15%;
-  border-radius: 20px;
-} */

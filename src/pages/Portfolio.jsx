@@ -15,12 +15,12 @@ export default function Portfolio() {
           <a href="https://tishaanderson.github.io/Horiseon-site/" target="_blank" >
             <img src={horiseon} className="card-img" id="horiseon-icon" alt="horiseon logo personalized with dotted border around it" />
           </a>
-          <div class="card-body">
-            <h5 class="card-title">SMU Bootcamp Challenge</h5>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Week: 1</li>
-              <li class="list-group-item">Coding Language: HTML, CSS </li>
-              <li class="list-group-item"><b>Github: </b><a href="https://github.com/tishaanderson/Horiseon-site">Horiseon Site</a> </li>
+          <div className="card-body">
+            <h5 className="card-title">SMU Bootcamp Challenge</h5>
+            <ul className="list-group list-group-flush">
+              <li className="list-group-item"><b>Week: </b>1</li>
+              <li className="list-group-item"><b>Coding Language: </b>HTML, CSS </li>
+              <li className="list-group-item"><b>Github: </b><a href="https://github.com/tishaanderson/Horiseon-site">Horiseon Site</a> </li>
               <li className="list-group-item"><b>Description: </b>My first assignment within the SMU Coding Bootcamp was an on-the-job ticket challenge, tasking us with refactoring the Horiseon website.</li>
             </ul>
           </div>
@@ -30,12 +30,12 @@ export default function Portfolio() {
           <a href="https://tishaanderson.github.io/Web-APIs-Coding-Quiz/" target="_blank" >
             <img src={codingGame} className="card-img" id="game-icon" alt="coding quiz game header as icon" />
           </a>
-          <div class="card-body">
-          <h5 class="card-title">SMU Bootcamp Challenge</h5>
-          <ul class="list-group list-group-flush">
-              <li class="list-group-item">Week 4: Web-APIs</li>
-              <li class="list-group-item">Coding Language: HTML, CSS, JavaScript </li>
-              <li class="list-group-item"><b>Github: </b><a href="https://github.com/tishaanderson/Web-APIs-Coding-Quiz">Coding Quiz Game</a></li>
+          <div className="card-body">
+          <h5 className="card-title">SMU Bootcamp Challenge</h5>
+          <ul className="list-group list-group-flush">
+              <li className="list-group-item"><b>Week 4: </b>Web-APIs</li>
+              <li className="list-group-item"><b>Coding Language: </b>HTML, CSS, JavaScript </li>
+              <li className="list-group-item"><b>Github: </b><a href="https://github.com/tishaanderson/Web-APIs-Coding-Quiz">Coding Quiz Game</a></li>
               <li className="list-group-item"><b>Description: </b>One month into the SMU coding program, we were tasked with building a timed coding quiz with multiple-choice questions.</li>
             </ul>
           </div>
@@ -45,12 +45,12 @@ export default function Portfolio() {
           <a href="https://tishaanderson.github.io/Daily-Planner/" target="_blank" >
             <img src={dailyPlanner} className="card-img" id="planner-icon" alt="9AM button from daily planner as icon" />
           </a>
-          <div class="card-body">
-          <h5 class="card-title">SMU Bootcamp Challenge</h5>
-          <ul class="list-group list-group-flush">
-              <li class="list-group-item">Week 5: Third-Party APIs</li>
-              <li class="list-group-item">Coding Language: HTML, CSS, JavaScript, jQuery </li>
-              <li class="list-group-item"><b>Github: </b><a href="https://github.com/tishaanderson/Daily-Planner">Daily Planner</a></li>
+          <div className="card-body">
+          <h5 className="card-title">SMU Bootcamp Challenge</h5>
+          <ul className="list-group list-group-flush">
+              <li className="list-group-item"><b>Week 5: </b>Third-Party APIs</li>
+              <li className="list-group-item"><b>Coding Language: </b>HTML, CSS, JavaScript, jQuery </li>
+              <li className="list-group-item"><b>Github: </b><a href="https://github.com/tishaanderson/Daily-Planner">Daily Planner</a></li>
               <li className="list-group-item"><b>Description: </b>Building a simple calendar application powered by jQuery was my 5th assignment within the SMU program.</li>
             </ul>
           </div>

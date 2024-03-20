@@ -1,0 +1,22 @@
+.resume {
+  padding-left: 30%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+
+.resume-card {
+  border: solid;
+  border-color: white;
+  color: #76bee2;
+}
+
+.resume-section {
+  color: white;
+}
+
+.company-name {
+  color: #7193a7;
+}
+
+
+
