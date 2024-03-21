@@ -33,7 +33,7 @@ export default function Resume() {
           <li className='job-list'>Maintain a customer-centric approach by prioritizing quality and
             ensuring customer satisfaction.</li>
           <li className='job-list'>Identify potential risks to quality and develop strategies to mitigate them.</li>
-          <li className='job-list'>Proactively address issues that may impact product quality, safety or
+          <li className='job-list' id='last-job-list'>Proactively address issues that may impact product quality, safety or
             compliance.
           </li>
         </ul>
@@ -48,7 +48,7 @@ export default function Resume() {
           <li className='job-list'>Process payments accurately using cash registers or POS systems and
             maintain cash drawer integrity.
           </li>
-          <li className='job-list'>Promote specials and upsell premium drinks to enhance sales and
+          <li className='job-list' id='last-job-list'>Promote specials and upsell premium drinks to enhance sales and
             customer experience.
           </li>
         </ul>
@@ -58,7 +58,7 @@ export default function Resume() {
         <ul className='job-responsibilities'>
           <li className='job-list'>Communicate effectively via phone, email, and in-person with clients.</li>
           <li className='job-list'>Excel in multitasking clerical tasks</li>
-          <li className='job-list'>Demonstrate excellent organizational skills
+          <li className='job-list' id='last-job-list'>Demonstrate excellent organizational skills
           </li>
         </ul>
       </div>

@@ -13,6 +13,7 @@
   color: #76bee2;
   border: solid;
   border-color: white;
+  opacity: .9;
 }
 
 .list-group-item {
@@ -27,7 +28,7 @@
   flex: 1;
 }
 
-p {
+/* p {
   margin-top: 1em;
   font-size: 12px;
-}
+} */

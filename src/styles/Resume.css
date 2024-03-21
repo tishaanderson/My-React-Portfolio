@@ -5,18 +5,40 @@
 }
 
 .resume-card {
-  border: solid;
+  /* border: solid; */
   border-color: white;
   color: #76bee2;
+  margin-bottom: 50px;
 }
 
 .resume-section {
   color: white;
+  border-bottom: dotted;
 }
 
 .company-name {
   color: #7193a7;
+  font-size: 22px;
 }
 
+.job-years {
+  font-size: 16px;
+}
 
+.job-title {
+  font-size: 16px;
+}
 
+.job-list {
+  font-size: 12px;
+}
+
+.job-responsibilities {
+  border-bottom: dotted;
+  opacity: .8;
+  /* width: 80%; */
+}
+
+#last-job-list {
+  margin-bottom: 10px;
+}
