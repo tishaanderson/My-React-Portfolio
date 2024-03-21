@@ -3,7 +3,6 @@ footer {
   bottom: 0;
   width: 100%;
   height: rem;
-  color: white !important;
 }
 
 .social-icons {
@@ -12,13 +11,11 @@ footer {
   gap: 10px;
   padding-left: 5px;
   padding-bottom: 5px;
-  color: white !important;
-
 }
 
 .fa {
   color: #212529 !important;
-
+  font-size: 2em;
   transition: .5s;
 }
 

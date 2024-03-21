@@ -8,7 +8,9 @@ html {
   background-attachment: fixed;
   background-position: left;
   background-color: rgb(19,19,19,255);
-
+  scroll-behavior: smooth;
+  scrollbar-color: #76bee2 #212529;
+  scrollbar-width: thin;  
 } 
 
 body {
