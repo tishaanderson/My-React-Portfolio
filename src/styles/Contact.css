@@ -1,0 +1,40 @@
+.contact {
+  padding-left: 30%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  padding-top: 10%;
+}
+
+input, textarea {
+  border-radius: none !important;
+  background-color: transparent !important;
+  border-top-color: transparent !important;
+  border-left-color: transparent !important;
+  border-right-color: transparent !important;
+}
+
+
+
+.contact-box {
+  margin-top: -50px !important;
+  padding-top: 0px !important;
+}
+
+#form-section {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  color: #7193a7;
+  opacity: .3;
+}
+
+#contact-me, #contact-text {
+  color: #7193a7;
+}
+
+.btn {
+  width: 100%;
+  margin-top: 10px;
+}
