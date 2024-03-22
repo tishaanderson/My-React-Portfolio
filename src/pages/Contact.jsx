@@ -1,6 +1,21 @@
 import '../styles/Contact.css';
 import emailjs from '@emailjs/browser';
 import React, { useRef } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+const notify = () => {
+  toast.success(' Message sent successfully!✌🏻', {
+      position: "top-center",
+      autoClose: 2000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+      });
+};
 
 export default function Contact() {
 
@@ -70,13 +85,15 @@ export default function Contact() {
 
 
               <div className="text-center text-md-left">
-                <button className="btn btn-primary" type="submit" value="Send">Send</button>
-                
+                <button className="btn btn-primary" type="submit" value="Send" onClick={notify}>Send</button>
+
+
               </div>
             </form>
           </div>
         </div>
       </section>
+      <ToastContainer />
     </div>
   );
 }
