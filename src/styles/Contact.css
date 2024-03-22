@@ -6,7 +6,6 @@
 }
 
 input, textarea {
-  border-radius: none !important;
   background-color: transparent !important;
   border-top-color: transparent !important;
   border-left-color: transparent !important;
@@ -35,4 +34,10 @@ label {
 .btn {
   width: 100%;
   margin-top: 10px;
+}
+
+input[type=text],
+textarea[type=text] {
+  color: white !important;
+  text-align: end;
 }

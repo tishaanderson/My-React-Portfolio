@@ -1,49 +1,51 @@
 import '../styles/Contact.css';
-import '@emailjs/browser';
-
-/* <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: "tkX8DGWQM4n_lp3aP",
-      });
-   })();
-</script> */
-
-// emailjs.sendForm('contact_service', 'contact_form', this)
-//                     .then(() => {
-//                         console.log('SUCCESS!');
-//                     }, (error) => {
-//                         console.log('FAILED...', error);
-//                     });
-
+import emailjs from '@emailjs/browser';
+import React, { useRef } from 'react';
 
 export default function Contact() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_kxnc2s9', 'contact_form', form.current, {
+        publicKey: 'tkX8DGWQM4n_lp3aP',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
   return (
     <div className='contact'>
       <section className="contact-box">
 
-        <h2 class="h1-responsive font-weight-bold text-center" id='contact-me'>Contact Me :) </h2>
+        <h2 className="h1-responsive font-weight-bold text-center" id='contact-me'>Contact Me :) </h2>
 
         <p className="text-center w-responsive mx-auto mb-5" id='contact-text'>Do you have any questions? Please do not hesitate to contact me directly. I'd love to hear from you! I will respond within 3 business days.</p>
 
         <div className="row" id='form-section'>
           <div className="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+            <form ref={form} onSubmit={sendEmail} id="contact-form" name="contact-form" action="mail.php" method="POST">
               <div className="row">
                 <div className="col-md-6">
                   <div className="md-form mb-0">
                     <input type="text" id="name" name="name" className="form-control"></input>
-                    <label for="name" className="">Your name</label>
+                    <label className="">Your name</label>
                   </div>
                 </div>
 
                 <div className="col-md-6">
                   <div className="md-form mb-0">
                     <input type="text" id="email" name="email" className="form-control"></input>
-                    <label for="email" className="">Your email</label>
+                    <label className="">Your email</label>
                   </div>
                 </div>
               </div>
@@ -52,7 +54,7 @@ export default function Contact() {
                 <div className="col-md-12">
                   <div className="md-form mb-0">
                     <input type="text" id="subject" name="subject" className="form-control"></input>
-                    <label for="subject" className="">Subject</label>
+                    <label className="">Subject</label>
                   </div>
                 </div>
               </div>
@@ -60,42 +62,21 @@ export default function Contact() {
               <div className="row">
                 <div className="col-md-12">
                   <div className="md-form">
-                    <textarea type="text" id="message" name="message" rows="2" className="form-control md-textarea"></textarea>
-                    <label for="message">Your message</label>
+                    <textarea type="text" id="message" name="message" rows="1" className="form-control md-textarea"></textarea>
+                    <label >Your message</label>
                   </div>
                 </div>
               </div>
-            </form>
 
-            <div className="text-center text-md-left">
-              <a className="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-            </div>
-            <div className="status"></div>
+
+              <div className="text-center text-md-left">
+                <button className="btn btn-primary" type="submit" value="Send">Send</button>
+                
+              </div>
+            </form>
           </div>
         </div>
       </section>
     </div>
-
   );
 }
-
-//ON CREATE A CONTACT FORM DOCS
-// import '@emailjs/browser'
-
-{/* <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: "tkX8DGWQM4n_lp3aP",
-      });
-   })();
-</script> */}
-
-// emailjs.sendForm('contact_service', 'contact_form', this)
-//                     .then(() => {
-//                         console.log('SUCCESS!');
-//                     }, (error) => {
-//                         console.log('FAILED...', error);
-//                     });
