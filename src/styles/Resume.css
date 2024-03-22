@@ -13,7 +13,8 @@
 
 .resume-section {
   color: white;
-  border-bottom: dotted;
+  border-bottom: solid;
+  border-width: 1px;
 }
 
 .company-name {
@@ -34,11 +35,44 @@
 }
 
 .job-responsibilities {
-  border-bottom: dotted;
+  
   opacity: .8;
-  /* width: 80%; */
+}
+
+#summer-job {
+  border-bottom: none;
 }
 
 #last-job-list {
   margin-bottom: 10px;
 }
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-list {
+  list-style-type: circle;
+  text-align: start;
+  opacity: .8;
+}
+
+.skills {
+  flex: 1;
+}
+
+.skill-type {
+  text-align: start;
+}
+
+.strengths {
+  display: flex;
+  justify-content: space-between;
+}
+
+#personal-skills {
+  text-align: center;
+  margin-top: 10px;
+}
+
