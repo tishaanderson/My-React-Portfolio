@@ -3,6 +3,8 @@ import { Outlet, useLocation } from 'react-router-dom';
 import Nav from './components/NavTabs';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import './styles/main.css';
+
 
 function App() {
   const currentPage = useLocation().pathname;
