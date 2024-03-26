@@ -1,5 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import '../styles/NavTabs.css';
+import profileImg from '../images/closingday2.png';
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
@@ -9,7 +10,7 @@ function NavTabs() {
   return (
     <ul className="nav nav-tabs">
       {/* <img src="src\images\Selfie.png" alt="selfie of tisha anderson" /> */}
-      <img src="src\images\closingday2.png" alt="selfie of tisha anderson" />
+      <img src={profileImg} alt="selfie of tisha anderson" />
 
       <li className="nav-item">
         <Link
