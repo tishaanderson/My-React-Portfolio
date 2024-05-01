@@ -11,7 +11,7 @@
 
 ## Description
 
-As an employer looking for canditates with experience building single-page applicatioins, I want to view a potential employee's deployed React portfolio of work samples. This way I can assess whether they're a good candidate for an open position.
+As an aspiring junior developer building single-page applications, I understand the importance of showcasing my deployed React portfolio to potential employers. This enables them to access whether I'm a suitable candidate for their open positions.
 
 ## Installation
 
